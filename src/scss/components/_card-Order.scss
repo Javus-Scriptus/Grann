@@ -1,1 +1,30 @@
-/* Стилі для Card Order*/
+:root {
+    --background: #D5D0E0 
+    --backgound-card: #F5EEE0 
+    --text-color-maroon: #705A66;
+    --text-color-black: #252525;
+    --radio-buttons-black: #161616;
+}
+
+@font-face {
+    font-family: 'Montreal'; 
+    src: url(Montserrat-Italic-VariableFont_wght.ttf) format(ttf);
+    font-weight: normal;
+    font-style: normal;   
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:not(h1) {
+    font-family: "Montserrat", sans-serif;
+}
+
+// section 1
+
+.h1 {
+    
+}
