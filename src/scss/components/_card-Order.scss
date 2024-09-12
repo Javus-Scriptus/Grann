@@ -1,6 +1,6 @@
 :root {
     --background: #D5D0E0 
-    --backgound-card: #F5EEE0 
+    --backgound-card: #f5eee0 
     --text-color-maroon: #705A66;
     --text-color-black: #252525;
     --radio-buttons-black: #161616;
@@ -13,10 +13,23 @@
     font-style: normal;   
 }
 
+.container {
+    width: 500px;
+    height: 373px;
+    margin-right: 100px;
+    margin-left: 841px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.h2 {
+  font-size: 24px;
+  color: #705a66;
+    font-weight: 200;
 }
 
 *:not(h1) {
@@ -25,6 +38,21 @@
 
 // section 1
 
-.h1 {
-    
+.section-1-text {
+    font-size: 14px;
+    color: #252525;
 }
+
+.h1 {
+    font-size: 100px;
+}
+
+.contact-card {
+    background-color: #f5eee0;
+    width: 500px;
+    height: 60px;
+    // font-size: ;
+}
+
+// section 2
+
